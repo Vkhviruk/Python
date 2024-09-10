@@ -5,10 +5,10 @@ if type(name) == type(lastname):
     print(type(name))
 else:
     print("Змінні мають різні типи даних")
-list=f"{name} {lastname}"
+list=[name, lastname]
 print(list)
+print(type(list))
 if type(age) == type(lastname):
     print("type age = type lastname")
 if type(age) != type(lastname):
     print("type 'age' ≠ type 'lastname'")
-    print(type(age))
