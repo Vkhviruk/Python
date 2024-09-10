@@ -1,6 +1,6 @@
 name = "Victoria"
 lastname = "Khviruk"
-age = "16"
+age = 16
 if type(name) == type(lastname):
     print(type(name))
 else:
@@ -8,4 +8,7 @@ else:
 list=f"{name} {lastname}"
 print(list)
 if type(age) == type(lastname):
-    print(type(age)≠type(lastname))
+    print("type age = type lastname")
+if type(age) != type(lastname):
+    print("type 'age' ≠ type 'lastname'")
+    
