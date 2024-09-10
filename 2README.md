@@ -11,4 +11,4 @@ if type(age) == type(lastname):
     print("type age = type lastname")
 if type(age) != type(lastname):
     print("type 'age' ≠ type 'lastname'")
-    
+    print(type(age))
