@@ -7,7 +7,6 @@ else:
     print("Змінні мають різні типи даних")
 list=[name, lastname]
 print(list)
-print(type(list))
 if type(age) == type(lastname):
     print("type age = type lastname")
 if type(age) != type(lastname):
