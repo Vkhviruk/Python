@@ -1,8 +1,0 @@
-a = input("Hello would")
-name = input("Victoria")
-age = input("16")
-lastname = input("Khviruk")
-print = ("a:", type(a))
-print = ("name:", type(name))
-print = ("age:", type(age))
-print = ("lastname:", type(lastname))
